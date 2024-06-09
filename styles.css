@@ -28,9 +28,12 @@ body{
     width:400px;
     background-color: lightgray;
     display: flex;
-    justify-content: flex-end;
-    align-items: end;
+    text-wrap: wrap;
+    /* justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: end; */
     font-size: 70px;
+    word-break: break-all;
 }
 .row{
     display: flex;
